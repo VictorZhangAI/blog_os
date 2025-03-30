@@ -2,7 +2,7 @@
 
 run the OS on bare metal by
 ```shell
-cargo rustc -- -C link-arg=-nostartfiles
+cargo build --target x86_64-blog_os.json
 ```
 
 on Linux.  
